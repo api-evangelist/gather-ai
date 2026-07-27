@@ -1,9 +1,27 @@
 aid: gather-ai
 name: Gather AI
-description: 'Gather AI is a company surfaced as a portfolio company of bain-capital-ventures, bloomberg-beta
-  and added to the API Evangelist network as a stub for enrichment. Sector: physical-ai. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Gather AI is a Physical AI platform for logistics that gives warehouses
+  dock-to-dock inventory visibility. Cameras mounted on autonomous drones and forklifts
+  capture inventory, and computer vision extracts structured data (LPNs, UPCs, lot
+  codes, and free text) from the imagery. Its Sage AI engine analyzes operations and
+  surfaces prioritized actions before each shift, while automated Workflows route tasks
+  to the right personnel across integrated systems. The plug-and-play solution deploys
+  in hours alongside existing warehouse management systems, serving manufacturing,
+  healthcare, food & beverage, retail, and 3PL operations. Surfaced as a portfolio
+  company of bain-capital-ventures and bloomberg-beta.'
 url: https://raw.githubusercontent.com/api-evangelist/gather-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/VgCtHARrLOCo3fZVTsH46rWn84.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Physical Ai
+- Physical AI
+- Logistics
+- Warehouse Inventory
+- Computer Vision
+- Drones
+- Supply Chain
+- Robotics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.gather.ai/
+- type: TermsOfService
+  url: https://www.gather.ai/terms
+- type: PrivacyPolicy
+  url: https://www.gather.ai/privacy-policy
+- type: Blog
+  url: https://www.gather.ai/news-and-insights
+- type: DomainSecurity
+  url: security/gather-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
