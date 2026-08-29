@@ -10,6 +10,17 @@ description: 'Gather AI is a Physical AI platform for logistics that gives wareh
   healthcare, food & beverage, retail, and 3PL operations. Surfaced as a portfolio
   company of bain-capital-ventures and bloomberg-beta.'
 url: https://raw.githubusercontent.com/api-evangelist/gather-ai/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
